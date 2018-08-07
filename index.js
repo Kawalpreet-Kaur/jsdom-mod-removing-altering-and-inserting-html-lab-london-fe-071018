@@ -5,4 +5,4 @@ main.remove();
 const newHeader = document.createElement('h1');
 document.body.appendChild(newHeader);
 newHeader.setAttribute('id','victory');
-newHeader.innerHTML='Abcd is the champion!';
+newHeader.innerText='Abcd is the champion!';
